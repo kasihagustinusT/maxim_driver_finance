@@ -122,7 +122,7 @@ class TemplateRenderer:
     <!-- Footer -->
     <footer class="bg-white bg-opacity-90 mt-12">
         <div class="container mx-auto px-4 py-6 text-center text-gray-600">
-            <p class="text-sm md:text-base">Maxim Finance AI System • Powered by Artificial Intelligence • Professional Grade • Kasih</p>
+            <p class="text-sm md:text-base">Maxim Finance AI System • Powered by Kasih • Professional Grade</p>
         </div>
     </footer>
 
