@@ -12,7 +12,7 @@ from app.models.financial_record import FinancialRecord
 from app.services.ai_advisor import AIFinanceAdvisor
 from app.services.data_handler import DataHandler
 
-class ExpertFinanceManager
+class ExpertFinanceManager:
     def __init__(self):
         self.data_handler = DataHandler()
         self.ai_advisor = AIFinanceAdvisor()
