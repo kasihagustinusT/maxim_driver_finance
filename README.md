@@ -1,11 +1,6 @@
 # 🚗 Maxim Driver Finance AI
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/f486c51d-8eb7-4c2c-9a59-90c41f260622" width="70%">
-</p>
-
 <div align="center">
-
+  
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![Pandas](https://img.shields.io/badge/Pandas-1.5+-green.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
@@ -147,6 +142,10 @@ maxim_driver_finance/
 - Akses `/dashboard` untuk melihat ringkasan keuangan
 - Monitor total revenue, pendapatan bersih, efisiensi
 - Lihat analisis AI dan tips finansial
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/efb57bf0-79c1-4742-b8fe-626b6827c835" width="65%">
+</p>
+
 
 ### 2. Tambah Order Baru
 - Akses `/orders` untuk menambah transaksi baru
@@ -157,16 +156,27 @@ maxim_driver_finance/
   - Tabungan BBM: 10%
   - Tabungan Oli: 10%
   - Pendapatan Bersih & Siap Pakai
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/84b929ee-6a05-4309-a011-13f8dbb51cb1" width="65%">
+</p>
+
 
 ### 3. Riwayat Transaksi
 - Akses `/history` untuk melihat semua transaksi
 - Filter berdasarkan tanggal dan jenis order
 - Hapus multiple data sekaligus
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0c4a2b6b-8f1e-472f-ada3-4ef4108e88c7" width="65%">
+</p>
+
 
 ### 4. Management Target
 - Akses `/targets` untuk set target performa
 - Atur target pendapatan harian
 - Set target jumlah order mingguan
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/46ae3fa1-4ef7-45e4-b925-61326edeba46" width="65%">
+</p>
 
 ## 🔧 Konfigurasi
 
@@ -318,4 +328,5 @@ Distributed under the MIT License. See `LICENSE` file untuk detail lebih lanjut.
 ⭐ Jika project ini membantu Anda, jangan lupa beri star di GitHub!
 
 </div>
+
 
