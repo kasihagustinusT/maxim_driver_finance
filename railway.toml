@@ -2,7 +2,7 @@
 builder = "nixpacks"
 
 [deploy]
-startCommand = "cd app && python main.py"
+startCommand = "python run.py"
 
 [[services]]
 name = "maxim-finance-ai"
