@@ -1,11 +1,18 @@
 from datetime import datetime, timedelta
 from typing import Dict, List, Any, Optional
 
-from ..models.financial_record import FinancialRecord
-from .ai_advisor import AIFinanceAdvisor
-from .data_handler import DataHandler
+# Absolute imports
+import os
+import sys
+current_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if current_dir not in sys.path:
+    sys.path.insert(0, current_dir)
 
-class ExpertFinanceManager:
+from app.models.financial_record import FinancialRecord
+from app.services.ai_advisor import AIFinanceAdvisor
+from app.services.data_handler import DataHandler
+
+class ExpertFinanceManager
     def __init__(self):
         self.data_handler = DataHandler()
         self.ai_advisor = AIFinanceAdvisor()
