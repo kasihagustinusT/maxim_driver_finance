@@ -1,0 +1,10 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "cd app && python main.py"
+
+[[services]]
+name = "maxim-finance-ai"
+type = "web"
+port = 8000
