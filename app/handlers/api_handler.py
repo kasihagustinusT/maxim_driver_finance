@@ -3,14 +3,22 @@ import urllib.parse
 from http.server import BaseHTTPRequestHandler
 from datetime import datetime
 
-from ..services.finance_manager import ExpertFinanceManager
-from ..utils.template_renderer import TemplateRenderer
+# Gunakan absolute imports
+import os
+import sys
+current_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if current_dir not in sys.path:
+    sys.path.insert(0, current_dir)
+
+from app.services.finance_manager import ExpertFinanceManager
+from app.utils.template_renderer import TemplateRenderer
 
 class ExpertFinanceAPIHandler(BaseHTTPRequestHandler):
     def __init__(self, *args, finance_manager=None, **kwargs):
         self.finance_manager = finance_manager or ExpertFinanceManager()
         self.template_renderer = TemplateRenderer(self.finance_manager)
         super().__init__(*args, **kwargs)
+
 
     def do_GET(self):
         """Handle GET requests"""
