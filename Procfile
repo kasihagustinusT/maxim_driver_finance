@@ -1,1 +1,1 @@
-web: cd app && python main.py
+web: python run.py
