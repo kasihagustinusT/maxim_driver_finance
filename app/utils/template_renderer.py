@@ -26,6 +26,7 @@ class TemplateRenderer:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="DekVwgbFmlz8127gRpCpBgE9-RZ8KqMz_eWdDplNmu0" />
     <title>{title} - Maxim Finance AI</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
