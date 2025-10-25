@@ -1,0 +1,10 @@
+{
+    "company_name": "Kasih",
+    "tax_rate": 0.0,
+    "currency": "IDR",
+    "performance_metrics": {
+        "target_daily_income": 150000,
+        "target_weekly_orders": 105,
+        "efficiency_threshold": 50
+    }
+}
