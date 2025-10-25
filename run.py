@@ -6,13 +6,10 @@ Maxim Finance AI - Railway Entry Point
 import os
 import sys
 
-# Add app directory to path
-app_dir = os.path.join(os.path.dirname(__file__), 'app')
-if app_dir not in sys.path:
-    sys.path.insert(0, app_dir)
+# Install package in development mode
+sys.path.insert(0, os.path.dirname(__file__))
 
-# Import dan run main
-from main import main
+from app.main import main
 
 if __name__ == "__main__":
     main()
