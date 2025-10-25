@@ -1,5 +1,9 @@
 # 🚗 Maxim Driver Finance AI
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f486c51d-8eb7-4c2c-9a59-90c41f260622" width="70%">
+</p>
+
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
@@ -314,3 +318,4 @@ Distributed under the MIT License. See `LICENSE` file untuk detail lebih lanjut.
 ⭐ Jika project ini membantu Anda, jangan lupa beri star di GitHub!
 
 </div>
+
